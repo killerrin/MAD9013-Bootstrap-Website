@@ -21,6 +21,9 @@ body {
 .navbar-inverse .container .navbar-brand {
   color: black; }
 
+body > footer > div > div > div.col-xs-12.col-md-4.social > a {
+  color: black; }
+
 /* Apply the Font Family */
 body {
   font-family: "Droid Sans", "Lato", "Open Sans", Arial, sans-serif; }
@@ -63,7 +66,25 @@ body > .container {
 .top-buffer {
   margin-top: 25px; }
 
-/* Set the map to centered */
+/* Index.html */
+.missionStatementJumbotron {
+  background: #3E913C; }
+
+.module {
+  background: #3E913C;
+  padding-top: 15px;
+  text-align: center; }
+
+/* Help.html */
+#stepsToHelp li.list-group-item {
+  list-style: decimal inside;
+  display: list-item; }
+
+.list-group-item-custom {
+  background: #359168;
+  border: 1px solid black; }
+
+/* Contact.html */
 .map {
   background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=45.348307,-75.755990&zoom=13&size=600x300&maptype=roadmap&markers=color:green%7Clabel:%7C45.348307, -75.755990&key=AIzaSyCB42vFOCiKZEwqzi7js2uVSMYOR3UamRU");
   background-repeat: no-repeat;
@@ -73,10 +94,17 @@ body > .container {
   height: 300px;
   margin: 0 auto; }
 
-#contactForm {
-  margin-top: 10px; }
+.contactPanel {
+  margin-top: 20px;
+  border: 0px solid transparent; }
 
-.contactUsHeader {
+.contactPanel > .panel-heading {
+  background: #2D7A42;
+  color: black;
+  border-bottom: 1px solid black;
   text-align: center; }
+
+.contactPanel > .panel-body {
+  background: #3E913C; }
 
 /*# sourceMappingURL=main.css.map */
