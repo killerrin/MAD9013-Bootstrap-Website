@@ -1,22 +1,22 @@
 /* Apply Background Colors */
+
 body {
     background: $bodyBackground;
     color: $fontColor;
 }
 
-.navbar, .footer {
+.navbar,
+.footer {
     background: $headerFooterBackground;
-    border-color: transparent;   
-
+    border-color: transparent;
     color: $fontColor;
 }
 
-#navbar > ul > li {
+#navbar>ul>li {
     &.active>a {
         background: darkslategray;
         opacity: 0.85;
     }
-
     &>a {
         color: $fontColor;
     }
@@ -25,6 +25,7 @@ body {
 .navbar-inverse .container .navbar-brand {
     color: $fontColor;
 }
+
 
 /* Apply the Font Family */
 
@@ -75,4 +76,11 @@ body>.container {
 
 .copyrightText {
     font-size: 2.0rem;
+}
+
+
+/* ECT Helpers */
+
+.top-buffer {
+    margin-top: 25px;
 }
