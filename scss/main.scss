@@ -2,23 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Lora');
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Open+Sans');
+
 @import "partials/_variables.scss";
-
-/* Apply the Font Styles */
-
-body {
-    font-family: $bodyFont;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $headerFont;
-}
-
 @import "partials/_mainPageLayout.scss";
 
 /* Set the map to centered */

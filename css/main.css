@@ -1,7 +1,26 @@
 /* Imports */
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif|Lora");
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Open+Sans");
-/* Apply the Font Styles */
+/* Apply Background Colors */
+body {
+  background: #497A2D;
+  color: black; }
+
+.navbar, .footer {
+  background: #779135;
+  border-color: transparent;
+  color: black; }
+
+#navbar > ul > li.active > a {
+  background: darkslategray;
+  opacity: 0.85; }
+#navbar > ul > li > a {
+  color: black; }
+
+.navbar-inverse .container .navbar-brand {
+  color: black; }
+
+/* Apply the Font Family */
 body {
   font-family: "Droid Sans", "Lato", "Open Sans", Arial, sans-serif; }
 
@@ -28,8 +47,7 @@ body > .container {
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 60px;
-  background-color: #f5f5f5; }
+  min-height: 60px; }
 
 /* Center the Footer Content */
 .footer .container {
