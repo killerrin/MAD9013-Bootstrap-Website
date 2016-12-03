@@ -19,35 +19,24 @@ h6 {
     font-family: $headerFont;
 }
 
+@import "partials/_mainPageLayout.scss";
 
-/* Set the footer to stick to the bottom of the page */
+/* Set the map to centered */
 
-html {
-    position: relative;
-    min-height: 100%;
+.map {
+    background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=45.348307,-75.755990&zoom=13&size=600x300&maptype=roadmap&markers=color:green%7Clabel:%7C45.348307, -75.755990&key=AIzaSyCB42vFOCiKZEwqzi7js2uVSMYOR3UamRU");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
 }
 
-body {
-    margin-bottom: 60px;
+#contactForm {
+    margin-top: 10px;
 }
 
-body>.container {
-    padding-top: 60px;
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    min-height: 60px;
-    background-color: #f5f5f5;
-}
-
-
-/* Center the Footer Content */
-
-.footer .container {
+.contactUsHeader {
     text-align: center;
-    margin-top: 15px;
-    font-size: 2rem;
 }

@@ -35,6 +35,25 @@ body > .container {
 .footer .container {
   text-align: center;
   margin-top: 15px;
-  font-size: 2rem; }
+  font-size: 3.0rem; }
+
+.copyrightText {
+  font-size: 2.0rem; }
+
+/* Set the map to centered */
+.map {
+  background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=45.348307,-75.755990&zoom=13&size=600x300&maptype=roadmap&markers=color:green%7Clabel:%7C45.348307, -75.755990&key=AIzaSyCB42vFOCiKZEwqzi7js2uVSMYOR3UamRU");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 600px;
+  height: 300px;
+  margin: 0 auto; }
+
+#contactForm {
+  margin-top: 10px; }
+
+.contactUsHeader {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
