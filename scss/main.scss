@@ -8,10 +8,12 @@
 /* Index.html */
 .missionStatementJumbotron {
     background: $moduleBackground;
+    color: $moduleFontColor;
 }
 
 .module {
     background: $moduleBackground;
+    color: $moduleFontColor;
     padding-top: 15px;
     text-align: center;
 }
@@ -24,6 +26,7 @@
 
 .list-group-item-custom {
     background: $listGroupCustomBackground;
+    color: $listGroupFontColor;
     border: 1px solid black;
 }
 
@@ -46,7 +49,7 @@
 
 .contactPanel > .panel-heading {
     background: $panelHeadingBackground;
-    color: black;
+    color: $panelHeadingFontColor;
     border-bottom: 1px solid black;
     text-align: center;    
 }

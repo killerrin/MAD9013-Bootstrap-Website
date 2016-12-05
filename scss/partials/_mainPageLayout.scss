@@ -9,25 +9,26 @@ body {
 .footer {
     background: $headerFooterBackground;
     border-color: transparent;
-    color: $fontColor;
+    color: $headerFooterFontColor;
 }
 
 #navbar>ul>li {
     &.active>a {
         background: darkslategray;
+        color: $fontColor;
         opacity: 0.85;
     }
     &>a {
-        color: $fontColor;
+        color: $headerFooterFontColor;
     }
 }
 
 .navbar-inverse .container .navbar-brand {
-    color: $fontColor;
+    color: $headerFooterFontColor;
 }
 
 body > footer > div > div > div.col-xs-12.col-md-4.social > a {
-    color: black;
+    color: $headerFooterFontColor;
 }
 
 

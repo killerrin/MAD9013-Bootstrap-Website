@@ -1,10 +1,15 @@
+/* Test http://leaverou.github.io/contrast-ratio/#black-on-%233E913C */
 $listGroupCustomBackground: #359168;
 $panelHeadingBackground: #2D7A42;
 $moduleBackground: #3E913C;
 $bodyBackground: #497A2D;
 $headerFooterBackground: #779135;
 
-$fontColor: black;
+$listGroupFontColor: black;
+$panelHeadingFontColor: white;
+$moduleFontColor: black;
+$fontColor: white;
+$headerFooterFontColor: black;
 
 $headerFont: 'Droid Serif', 'Lora', Georgia, serif;
 $bodyFont: 'Droid Sans', 'Lato', 'Open Sans', Arial, sans-serif;
