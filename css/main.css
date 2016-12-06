@@ -5,26 +5,26 @@
 /* Apply Background Colors */
 body {
   background: #497A2D;
-  color: white; }
+  color: #E0FFE2; }
 
 .navbar,
 .footer {
   background: #779135;
   border-color: transparent;
-  color: black; }
+  color: #011D03; }
 
 #navbar > ul > li.active > a {
   background: darkslategray;
-  color: white;
+  color: #E0FFE2;
   opacity: 0.85; }
 #navbar > ul > li > a {
-  color: black; }
+  color: #011D03; }
 
 .navbar-inverse .container .navbar-brand {
-  color: black; }
+  color: #011D03; }
 
 body > footer > div > div > div.col-xs-12.col-md-4.social > a {
-  color: black; }
+  color: #011D03; }
 
 /* Apply the Font Family */
 body {
@@ -44,21 +44,22 @@ html {
   min-height: 100%; }
 
 body {
-  margin-bottom: 60px; }
+  margin-bottom: 100px;
+  /* Same Size as footer min-height */ }
 
 body > .container {
-  padding-top: 60px; }
+  padding-top: 100px;
+  /* Same Size as footer min-height */ }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 60px; }
+  min-height: 40px; }
 
 /* Center the Footer Content */
 .footer .container {
   text-align: center;
-  margin-top: 15px;
   font-size: 3.0rem; }
 
 .copyrightText {
@@ -71,13 +72,13 @@ body > .container {
 /* Index.html */
 .missionStatementJumbotron {
   background: #3E913C;
-  color: black; }
+  color: #011D03; }
 
 .module {
   background: #3E913C;
-  color: black;
-  padding-top: 15px;
-  text-align: center; }
+  color: #011D03;
+  text-align: left;
+  padding: 10px 5px; }
 
 /* Help.html */
 #stepsToHelp li.list-group-item {
@@ -86,7 +87,7 @@ body > .container {
 
 .list-group-item-custom {
   background: #359168;
-  color: black;
+  color: #011D03;
   border: 1px solid black; }
 
 /* Contact.html */
@@ -105,7 +106,7 @@ body > .container {
 
 .contactPanel > .panel-heading {
   background: #2D7A42;
-  color: white;
+  color: #E0FFE2;
   border-bottom: 1px solid black;
   text-align: center; }
 

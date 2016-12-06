@@ -2,7 +2,7 @@
 
 body {
     background: $bodyBackground;
-    color: $fontColor;
+    color: $bodyFontColor;
 }
 
 .navbar,
@@ -15,7 +15,7 @@ body {
 #navbar>ul>li {
     &.active>a {
         background: darkslategray;
-        color: $fontColor;
+        color: $bodyFontColor;
         opacity: 0.85;
     }
     &>a {
@@ -56,18 +56,18 @@ html {
 }
 
 body {
-    margin-bottom: 60px;
+    margin-bottom: 100px; /* Same Size as footer min-height */
 }
 
 body>.container {
-    padding-top: 60px;
+    padding-top: 100px;  /* Same Size as footer min-height */
 }
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 60px;
+    min-height: 40px;
 }
 
 
@@ -75,7 +75,7 @@ body>.container {
 
 .footer .container {
     text-align: center;
-    margin-top: 15px;
+    // margin-top: 15px;
     font-size: 3.0rem;
 }
 
